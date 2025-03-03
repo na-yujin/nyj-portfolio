@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strum</title>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="js/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="js/slick/slick.css">
+  <!-- Featherlight.js -->
+	<script src="js/featherlight/featherlight.js"></script>
+	<link rel="stylesheet" href="js/featherlight/featherlight.css">
+  <!-- TypeIt -->
+  <script src="js/typeit.min.js"></script>
+  <!-- Wow Scroll Reveal Animation -->
+  <script src="js/wow.min.js"></script>
+  <!-- Custom CSS & JS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="custom.js"></script>
+</head>
+<body>
+  
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="header-inner">
+        <div class="header-content">
+          <a class="logo" href="#"><img src="images/logo.svg"></a>
+          <div class="gnb">
+            <a href="#feature01">About us</a>
+            <a href="#feature02">Service</a>
+            <a href="#feature03">Our partners</a>
+          </div>
+        </div>
+      </div>
+      <div class="trigger"></div>
+    </header>
+    <!-- Section : Welcome -->
+    <section class="welcome">
+      <div class="welcome-inner">
+        <div class="welcome-content">
+          <div class="welcome-heading">
+            <h1>원격 협업을 <span>더 <em id="typing"></em>하게</span></h1>
+            <h3>비대면 업무 효율 향상을 위한 올인원 협업 소프트웨어</h3>
+          </div>
+          <div class="welcome-img">
+            <img src="images/welcome.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section : About -->
+    <section class="about" id="feature01">
+      <div class="about-inner">
+        <div class="about-content">
+          <div class="headline-share ltr wow">
+            <h4>About us</h4>
+            <h2><span>비대면 미팅</span>의 시작,<br>
+              스트럼 코리아</h2>
+          </div>
+          <div class="about-detail rtl wow">
+            <div class="about-icons">
+              <img src="images/about-01.png">
+              <img src="images/about-02.png">
+            </div>
+            <div class="about-text">
+              <div class="line"></div>
+              <h4>
+                스트럼 코리아는 언택트 시대에 발맞춰 <span>비대면 업무의 효율</span>을 최대한 향상 시켜주는 <span>협업 소프트웨어</span>를 만드는 것을 목표로 합니다. <span>비대면 음성미팅, 파일공유, 자동 이슈 리포트 생성</span> 등 사용자의 상황에 맞게 가장 효과적인 소프트웨어를 제공합니다.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section : Service -->
+    <section class="service" id="feature02">
+      <div class="service-inner">
+        <div class="service-content">
+          <div class="headline-share utd wow">
+            <h4>Service</h4>
+            <h2><span>스트럼의 서비스</span>를 소개합니다.</h2>
+          </div>
+          <div class="service-tab-content utd wow">
+            <div class="service-tab-btns">
+              <div data-alt="tab01" class="service-tab-btn active">
+                <div>
+                  <img src="images/about-01.png">
+                  <h3>스트럼</h3>
+                </div>
+                <p>온라인 협업을 더 생생하게!</p>
+              </div>
+              <div data-alt="tab02" class="service-tab-btn">
+                <div>
+                  <img src="images/about-02.png">
+                  <h3>이슈노트</h3>
+                </div>
+                <p>다양한 파일 공유의 편리함</p>
+              </div>
+            </div>
+            <div class="service-tabs">
+              <div id="tab01" class="service-tab tab01 active">
+                <div class="service-slider">
+                  <img src="images/service-01-1.png">
+                  <img src="images/service-01-2.png">
+                  <img src="images/service-01-3.png">
+                </div>
+                <a href="strum.html" class="btn-more" data-featherlight="iframe">자세히 보기</a>
+              </div>
+              <div id="tab02" class="service-tab tab02">
+                <div class="service-slider">
+                  <img src="images/service-02-1.png">
+                  <img src="images/service-02-2.png">
+                  <img src="images/service-02-3.png">
+                </div>
+                <a href="issuenote.html" class="btn-more" data-featherlight="iframe">자세히 보기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section : Partners -->
+    <section class="partners" id="feature03">
+      <div class="partners-inner">
+        <div class="partners-content">
+          <div class="headline-share utd wow">
+            <h4>Our partners</h4>
+            <h2>스트럼의 서비스를 소개합니다.</h2>
+          </div>
+          <div class="partners-items">
+            <img src="images/partners-01.png" class="utd wow" data-wow-delay="0.25s">
+            <img src="images/partners-02.png" class="utd wow" data-wow-delay="0.25s">
+            <img src="images/partners-03.png" class="utd wow" data-wow-delay="0.25s">
+            <img src="images/partners-04.png" class="utd wow" data-wow-delay="0.25s">
+            <img src="images/partners-05.png" class="utd wow" data-wow-delay="0.5s">
+            <img src="images/partners-06.png" class="utd wow" data-wow-delay="0.5s">
+            <img src="images/partners-07.png" class="utd wow" data-wow-delay="0.5s">
+            <img src="images/partners-08.png" class="utd wow" data-wow-delay="0.5s">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-content">
+          <div class="logo">
+            <img src="images/logo.svg">
+          </div>
+          <div class="copyright">
+            <div class="address">
+              <span>(주)스트럼코리아  대표:이상일  사업자번호:123-456-7890</span>
+              <span>서울시 강남구 역삼로 190, 마루190</span>
+            </div>
+            <div class="policy">
+              <a href="#none">contact us</a>
+              <a href="#none">이용약관</a>
+              <a href="#none">개인정보처리방침</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Go to top -->
+  <a class="btn-top" href="#"><i class="bi bi-arrow-up"></i></a>
+  
+</body>
+</html>

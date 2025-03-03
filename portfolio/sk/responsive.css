@@ -1,0 +1,265 @@
+@media (max-width: 768px) {
+  /* Default CSS */
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  /* Common CSS */
+  /* Headline-share */
+  /* inner center */
+  [class*="inner"] {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  /* #################### Header #################### */
+  .header-content {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img {
+    width: 50%;
+  }
+  .gnb {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    right: -270px;
+    width: 250px;
+    height: 100vh;
+    padding-top: 70px;
+    padding-left: 15px;
+    background: #fff;
+    box-shadow: 3px 0 3px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    z-index: 9998;
+  }
+  .gnb.active {
+    right: 0;
+  }
+  .gnb.active:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 0;
+    right: 250px;
+    width: 100vw;
+    height: 100%;
+    z-index: -999;
+    pointer-events: none;
+  }
+  .gnb a {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  /* Trigger */
+  .trigger {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 28px;
+    z-index: 9999;
+  }
+  .trigger:before {
+    content: "\F479";
+    font-family: bootstrap-icons;
+  }
+  .trigger.active:before {
+    content: "\F659";
+  }
+
+  /* #################### Section : welcome #################### */
+  .welcome-inner {
+    padding: 0;
+  }
+  .welcome-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* #################### Section : media #################### */
+  .media {
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .media-inner {
+    padding: 0;
+  }
+  .media-content {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    gap: 40px;
+  }
+  .media-content .headline-share {
+    min-width: 100%;
+    padding: 0 20px;
+  }
+  .media-slider-outer {
+    width: 100%;
+  }
+  .media-slider-item {
+    margin: 0 20px;
+  }
+  .media-slider-item img {
+    height: 200px;
+  }
+  .media-slider-item-text h5 {
+    margin-top: 8px;
+  }
+  .media-progress {
+    width: 100%;
+  }
+  .media-progress-bar {
+    width: 170px;
+  }
+
+  /* #################### Section : business #################### */
+  .business {
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 600px;
+  }
+  .business-inner {
+    padding: 0;
+  }
+  .business-content {
+    display: flex;
+    position: relative;
+  }
+  .business-nav {
+    width: 400px;
+    height: 500px;
+    padding-top: 220px;
+  }
+  .business-slider-text {
+    top: 50px;
+    left: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .business-slider-text > div h2 {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .business-slider-text > div p {
+    width: 80%;
+  }
+  .business-slider-img-outer {
+    width: 100%;
+  }
+  .business-slider-img-side {
+    display: none;
+  }
+  .business-slider-img-main {
+    top: 100px;
+    left: -130px;
+    width: 1090px;
+    height: 700px;
+  }
+  .business-slider-img-main img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .business-slider-img-main .slick-dots {
+    display: none;
+  }
+
+  /* #################### Section : invest #################### */
+  .invest {
+    margin: 120px 0;
+  }
+  .invest-items {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .invest-items .invest-item:nth-child(2) {
+    border: none;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 40px 0;
+  }
+
+  /* #################### Section : city-gas #################### */
+  .city-gas {
+    height: auto;
+    padding-bottom: 380px;
+  }
+  .city-gas-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 60px;
+  }
+  .city-gas-content > div img {
+    width: 100%;
+  }
+  .city-gas .headline-share p {
+    width: 100%;
+  }
+  .city-gas-slider {
+    width: 100%;
+    height: auto;
+  }
+  .city-gas-slider .slick-dots {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 500px;
+    padding: 0;
+  }
+  .city-gas-slider .slick-dots > li {
+    width: 50%;
+    padding: 10px 0;
+  }
+  .city-gas-slider .slick-dots > li:before {
+    display: none;
+  }
+  .city-gas-slider .slick-dots > li:after {
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  /* #################### Section : company #################### */
+  .company {
+    margin: 80px 0;
+  }
+  .company-content {
+    flex-direction: column;
+  }
+  .company-item div p {
+    width: 100%;
+  }
+
+  /* #################### footer #################### */
+  footer {
+    height: 300px;
+  }
+  .footer-content > div:first-child ul {
+    padding-left: 0;
+  }
+  .footer-content > div:last-child {
+    margin-top: 20px;
+  }
+  .footer-content > div:last-child ul {
+    flex-direction: column;
+  }
+  .footer-content > div:last-child ul li:after {
+    display: none;
+  }
+  .footer-content > div:last-child ul li {
+    line-height: 0.5em;
+  }
+}
