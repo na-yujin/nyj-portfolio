@@ -42,6 +42,25 @@
         border-width: 1px;
     }
 
+    /* intro */
+    .intro {
+        height: 100vh;
+        min-height: 1024px;
+    }
+
+    .intro-gradient {
+        width: 400px;
+        height: 400px;
+    }
+
+    .intro-text {
+        left: 40%;
+    }
+
+    .intro-text h2 {
+        font-size: 82px;
+    }
+
     /* about */
     .about {
         padding: 80px 20px;
@@ -194,7 +213,27 @@
         width: 40px;
         height: 40px;
         right: 16px;
-        bottom: 20px;
+        bottom: 40px;
+    }
+
+    /* intro */
+    .intro {
+        height: 100vh;
+        min-height: 1024px;
+    }
+
+    .intro-gradient {
+        width: 300px;
+        height: 300px;
+    }
+
+    .intro-text {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .intro-text h2 {
+        font-size: 54px;
     }
 
 

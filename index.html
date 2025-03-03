@@ -23,6 +23,18 @@
     <section class="intro">
         <div class="inner">
             <img class="intro-text-bg" src="./images/intro-text-bg.svg" alt="intro-text-background-image">
+            <div class="intro-gradient"></div>
+            <div class="intro-items">
+                <div class="intro-text">
+                    <h2>
+                        Not all<br/>
+                        funds are<br/>
+                        created<br/>
+                        equal;they<br/>
+                        compete.
+                    </h2>
+                </div>
+            </div>
             <p class="title-sm title-red">
                 Na-yujin All Right Reserved
             </p>
@@ -59,7 +71,7 @@
                             맡은 프로젝트의 목적을 우선적으로 고려하며, 원활한 협업을 중요하게 생각합니다.<br/>
                             다양한 직군과 함께 멋지고 즐거운 UI를 만드는 것을 좋아합니다!
                         </p>
-                        <a class="body-sm" href="">자기소개 더보기<img src="./images/circle-arrow-btn.svg" alt="circle-arrow-button-img"></a>
+                        <a class="body-sm" href="" target="_blank">자기소개 더보기<img src="./images/circle-arrow-btn.svg" alt="circle-arrow-button-img"></a>
                     </div>
                 </div>
             </div>
@@ -469,7 +481,7 @@
                             내용이여도 좋습니다. 궁금한 내용이 있다면 편하게
                             말씀해 주세요!
                         </p>
-                        <a class="body-md" href="">메일 보내기<img src="./images/circle-arrow-btn.svg" alt="circle-arrow-button-image"></a>
+                        <a class="body-md" href="" target="_blank">메일 보내기<img src="./images/circle-arrow-btn.svg" alt="circle-arrow-button-image"></a>
                     </div>
                 </div>
             </div>
@@ -478,30 +490,30 @@
 
     <!-- footer -->
     <footer>
-        <div class="container">
+        <p class="body-sm">
             © 2025 All right reserved.
-        </div>
+        </p>
     </footer>
 </div>
 
 <!-- swiper js -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-    var swiper = new Swiper('.project-slider', {
-        slidesPerView: "auto",
-        spaceBetween: 40,
-        centeredSlides: true,
-        loop: true, 
+  var swiper = new Swiper('.project-slider', {
+    slidesPerView: "auto",
+    spaceBetween: 40,
+    centeredSlides: true,
+    loop: true,
 
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
 </script>
 </body>
 </html>
