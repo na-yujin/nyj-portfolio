@@ -149,8 +149,26 @@
         margin-bottom: 60px;
     }
 
+    .slide-inner {
+        width: 100%;
+        padding: 40px 20px 0;
+    }
+
+    .slide-title {
+        flex-wrap: wrap;
+    }
+
+    .slide-title p {
+        width: 100%;
+        margin-top: 4px;
+    }
+
+    .slide-info ul {
+        flex-wrap: wrap;
+    }
+
     .slider-img {
-        max-width: auto;
+        max-width: 620px;
     }
 
     /* contact */
@@ -428,12 +446,16 @@
     }
 
     .slide-inner {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 
     .slide-logo {
         width: 32px;
         height: 32px;
+    }
+
+    .slide-btns {
+        gap: 4px;
     }
 
     /* contact */

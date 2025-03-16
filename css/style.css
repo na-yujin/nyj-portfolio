@@ -68,6 +68,7 @@ ul {
 .body-sm {
     font-size: 14px;
     color: #5C5C5C;
+    font-weight: 300;
 }
 
 .title-red {
@@ -485,56 +486,111 @@ section {
     opacity: 1;
 }
 
+.project-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .slide-inner {
-    padding-top: 60px;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    width: 620px;
+    height: 100%;
+    padding-top: 60px;
 }
 
 .slider-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 8px;
+    gap: 24px;
     width: 100%;
+}
+
+.slide-title {
+    display: flex;
+    align-items: flex-end;
 }
 
 .slide-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 56px;
-    height: 56px;
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;
+    border: 1px solid #e4e4e4;
 }
 
 .slide-logo > img {
-    width: 90%;
+    width: 80%;
     object-fit: cover;
+}
+
+.slide-title h2 {
+    margin-right: 8px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.slide-title p {
+    color: #959595;
+    font-weight: 300;
 }
 
 .slide-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 90%;
     gap: 16px;
-    text-align: center;
 }
 
-.slide-text h2 {
-    font-weight: 600;
-    color: #222;
+.slide-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.slide-info p span {
+    font-weight: 700;
+}
+
+.slide-info ul {
+    display: flex;
+    gap: 10px;
+}
+
+.slide-info li {
+    font-weight: 300;
+    color: #959595;
+}
+
+.slide-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.slide-btns a {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 4px;
+    background: #FF4F52;
+    color: #fff;
+    font-weight: 300;
+}
+
+.slide-btns a:last-of-type {
+    background: #fff;
+    color: #FF4F52;
+    border: 1px solid #FF4F52;
 }
 
 .slider-img {
-    width: 80%;
-    max-width: 570px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .slider-img > img {
