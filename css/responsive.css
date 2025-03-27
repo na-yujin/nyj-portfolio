@@ -53,12 +53,8 @@
         height: 400px;
     }
 
-    .intro-text {
-        left: 40%;
-    }
-
     .intro-text h2 {
-        font-size: 82px;
+        font-size: 44px;
     }
 
     /* about */
@@ -232,12 +228,11 @@
     }
 
     .intro-text {
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 40%;
     }
 
     .intro-text h2 {
-        font-size: 54px;
+        font-size: 26px;
     }
 
 
