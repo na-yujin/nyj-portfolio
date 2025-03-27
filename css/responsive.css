@@ -35,10 +35,6 @@
 
     /* top-btn */
     .top-btn {
-        width: 48px;
-        height: 48px;
-        right: 20px;
-        bottom: 40px;
         border-width: 1px;
     }
 
@@ -204,12 +200,17 @@
         display: block;
     }
 
+    /* toggle */
+    .toggle {
+        top: 16px;
+        right: 16px;
+    }
+
     /* top-btn */
     .top-btn {
         width: 40px;
         height: 40px;
         right: 16px;
-        bottom: 40px;
     }
 
     /* intro */

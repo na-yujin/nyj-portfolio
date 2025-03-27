@@ -11,10 +11,29 @@
     />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <title>nyj-portfolio</title>
 </head>
 <body>
 <div id="wrap">
+    <!-- header -->
+    <header>
+        <div class="header-inner">
+            <div class="toggle"></div>
+            <div class="header-content">
+                <div class="overlay"></div>
+                <ul class="gnb">
+                    <li><a class="title-md" href="#">Home</a></li>
+                    <li><a class="title-md" href="#about">About me</a></li>
+                    <li><a class="title-md" href="#work">Work Experience</a></li>
+                    <li><a class="title-md" href="#tech">Tech Stack</a></li>
+                    <li><a class="title-md" href="#project">Projects</a></li>
+                    <li><a class="title-md" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <!-- top-btn -->
     <a href="#wrap" class="top-btn">
         <img src="./images/top-arrow.svg" alt="top-arrow-image">
@@ -42,7 +61,7 @@
         </div>
     </section>
     <!-- about -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="inner">
             <div class="about-box">
                 <div class="title-share mo-active">
@@ -81,7 +100,7 @@
         </div>
     </section>
     <!-- work -->
-    <section class="work">
+    <section class="work" id="work">
         <div class="inner">
             <div class="title-share">
                 <div class="work-title">
@@ -152,7 +171,7 @@
         </div>
     </section>
     <!-- tech -->
-    <section class="tech">
+    <section class="tech" id="tech">
         <div class="inner">
             <div class="title-share">
                 <h2 class="title-lg">
@@ -222,7 +241,7 @@
                             <li class="body-md">- git을 이용한 형상관리를 통하여 원활한 협업 진행 가능</li>
                             <li class="body-md">- Visual Studio Code, WebStorm을 주로 사용</li>
                             <li class="body-md">- npm을 활용하여 원하는 패키지 등을 설치 및 활용</li>
-                            <li class="body-md">- Slack, Trello, Notion 등을 활용하여 협업 및 스케줄링하며, 문서를 공유 가능</li>
+                            <li class="body-md">- Slack, Trello, Notion, figma 등을 활용하여 협업 및 스케줄링하며, 문서를 공유 가능</li>
                         </ul>
                         <div class="tech-icons">
                             <div>
@@ -256,7 +275,7 @@
         </div>
     </section>
     <!-- project -->
-    <section class="project">
+    <section class="project" id="project">
         <div class="inner">
             <div class="title-share">
                 <h2 class="title-lg">
@@ -358,11 +377,10 @@
                                         주로 과정의 상세페이지 퍼블리싱을 및 유지보수 합니다.
                                     </p>
                                     <ul>
-                                        <li class="body-sm">#Next.js</li>
-                                        <li class="body-sm">#React</li>
-                                        <li class="body-sm">#Github</li>
-                                        <li class="body-sm">#RestApi</li>
-                                        <li class="body-sm">#Responsive</li>
+                                        <li class="body-sm">#Html5</li>
+                                        <li class="body-sm">#Css3</li>
+                                        <li class="body-sm">#JavaScript</li>
+                                        <li class="body-sm">#Php</li>
                                     </ul>
                                 </div>
                                 <div class="slide-btns">
@@ -395,11 +413,10 @@
                                         주어진 미션 완료 후 이벤트 응모하기 모달을 사용해 입력한 정보를 수집 합니다.
                                     </p>
                                     <ul>
-                                        <li class="body-sm">#Next.js</li>
-                                        <li class="body-sm">#React</li>
-                                        <li class="body-sm">#Github</li>
-                                        <li class="body-sm">#RestApi</li>
-                                        <li class="body-sm">#Responsive</li>
+                                        <li class="body-sm">#Html5</li>
+                                        <li class="body-sm">#Css3</li>
+                                        <li class="body-sm">#JavaScript</li>
+                                        <li class="body-sm">#Gnuboard</li>
                                     </ul>
                                 </div>
                                 <div class="slide-btns">
@@ -431,11 +448,9 @@
                                         위캔버스 설치 및 메뉴얼을 소개하는 반응형 페이지 입니다.
                                     </p>
                                     <ul>
-                                        <li class="body-sm">#Next.js</li>
-                                        <li class="body-sm">#React</li>
-                                        <li class="body-sm">#Github</li>
-                                        <li class="body-sm">#RestApi</li>
-                                        <li class="body-sm">#Responsive</li>
+                                        <li class="body-sm">#Html5</li>
+                                        <li class="body-sm">#Css3</li>
+                                        <li class="body-sm">#JavaScript</li>
                                     </ul>
                                 </div>
                                 <div class="slide-btns">
@@ -467,11 +482,9 @@
                                         또한 기업 이미지에 맞는 형태의 레이아웃을 사용했지만 단조롭지 않게 구성했습니다.
                                     </p>
                                     <ul>
-                                        <li class="body-sm">#Next.js</li>
-                                        <li class="body-sm">#React</li>
-                                        <li class="body-sm">#Github</li>
-                                        <li class="body-sm">#RestApi</li>
-                                        <li class="body-sm">#Responsive</li>
+                                        <li class="body-sm">#Html5</li>
+                                        <li class="body-sm">#Css3</li>
+                                        <li class="body-sm">#JavaScript</li>
                                     </ul>
                                 </div>
                                 <div class="slide-btns">
@@ -503,11 +516,9 @@
                                         사용자가 익숙함과 편안함을 느끼게 할 수 있게 카테고리 별로 레이아웃을 나누어 구성했습니다.
                                     </p>
                                     <ul>
-                                        <li class="body-sm">#Next.js</li>
-                                        <li class="body-sm">#React</li>
-                                        <li class="body-sm">#Github</li>
-                                        <li class="body-sm">#RestApi</li>
-                                        <li class="body-sm">#Responsive</li>
+                                        <li class="body-sm">#Html5</li>
+                                        <li class="body-sm">#Css3</li>
+                                        <li class="body-sm">#JavaScript</li>
                                     </ul>
                                 </div>
                                 <div class="slide-btns">
@@ -539,11 +550,9 @@
                                         사용자가 솔루션을 판단하기 쉽게 구성했습니다.
                                     </p>
                                     <ul>
-                                        <li class="body-sm">#Next.js</li>
-                                        <li class="body-sm">#React</li>
-                                        <li class="body-sm">#Github</li>
-                                        <li class="body-sm">#RestApi</li>
-                                        <li class="body-sm">#Responsive</li>
+                                        <li class="body-sm">#Html5</li>
+                                        <li class="body-sm">#Css3</li>
+                                        <li class="body-sm">#JavaScript</li>
                                     </ul>
                                 </div>
                                 <div class="slide-btns">
@@ -567,7 +576,7 @@
         </div>
     </section>
     <!-- contact -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="inner">
             <div class="title-share">
                 <h2 class="title-lg">
@@ -612,6 +621,16 @@
 <!-- swiper js -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
+  $(function(){
+    /* header toggle */
+    $('.toggle').click(function(){
+      $('.toggle, .overlay, .gnb').toggleClass('active');
+    });
+    $('.gnb a, .overlay').click(function(){
+      $('.toggle, .overlay, .gnb').removeClass('active');
+    });
+  });
+
   var swiper = new Swiper('.project-slider', {
     slidesPerView: "auto",
     spaceBetween: 40,
