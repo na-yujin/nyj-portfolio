@@ -90,24 +90,10 @@
 
     .about-content {
         grid-column: span 6/span 6;
-        margin-left: -92px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 60px;
-    }
-
-    .about-body {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        margin-left: 92px;
-    }
-
-    .about-body a {
-        display: flex;
-        align-items: center;
-        gap: 4px;
     }
 
     /* work */
@@ -296,24 +282,10 @@
     }
 
     .about-content {
-        margin-left: -92px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 60px;
-    }
-
-    .about-body {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        margin-left: 92px;
-    }
-
-    .about-body a {
-        display: flex;
-        align-items: center;
-        gap: 4px;
     }
 
     /* work */
