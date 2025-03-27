@@ -132,7 +132,7 @@
     }
 
     .slide-inner {
-        width: 100%;
+        max-width: 100%;
         padding: 40px 20px 0;
     }
 
@@ -147,10 +147,6 @@
 
     .slide-info ul {
         flex-wrap: wrap;
-    }
-
-    .slider-img {
-        max-width: 620px;
     }
 
     /* contact */
@@ -409,11 +405,12 @@
     }
 
     .swiper-slide.project-slide {
-        height: 460px;
+        height: auto;
     }
 
     .slide-inner {
         padding-top: 20px;
+        gap: 60px;
     }
 
     .slide-logo {
