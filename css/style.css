@@ -232,7 +232,7 @@ section {
     );
 
     filter: blur(40px);
-    animation: blobMorph 8s ease-in-out infinite alternate;
+    animation: blobMorph 5s ease-in-out infinite alternate;
 }
 
 @keyframes blobMorph {
@@ -268,17 +268,19 @@ section {
 .intro-text {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
-    z-index: 2;
+    z-index: 3;
 }
 
 .intro-text h2 {
     font-size: 96px;
-    font-weight: 200;
-    color: #3C3C3C;
+    font-weight: 900;
+    color: #fff;
     line-height: 1.2;
     letter-spacing: 0.2rem;
+    -webkit-text-stroke: 2px #FF4F52;
+    text-stroke: 2px #FF4F52;
 }
 
 .intro p {
@@ -294,7 +296,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 80%;
-    z-index: 3;
+    z-index: 2;
 }
 
 /* about */

@@ -226,10 +226,12 @@
 
     .intro-text {
         top: 40%;
+        left: 42%;
     }
 
     .intro-text h2 {
         font-size: 26px;
+        -webkit-text-stroke: 1px #FF4F52;
     }
 
 
