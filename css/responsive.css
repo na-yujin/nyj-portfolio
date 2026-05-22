@@ -97,6 +97,10 @@
         gap: 80px;
     }
 
+    .work-items:before {
+        top: 42%;
+    }
+
 
     /* tech */
     .tech {
@@ -114,7 +118,7 @@
     .tech-item {
         padding: 0 20px;
         height: auto;
-        min-height: 240px;
+        min-height: 260px;
     }
 
     /* project */
